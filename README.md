@@ -15,7 +15,8 @@ This app allows users to translate words between Bangla and English quickly and 
 ---
 
 ## 📸 Screenshots
-(Add your app screenshots here)  
+(Add your app screens<img width="1024" height="500" alt="Feature graphic" src="https://github.com/user-attachments/assets/91a65e13-e514-4954-9ab7-84e540e78df8" />
+hots here)  
 Example:  
 ![# 📖 Bangla-English Dictionary App
 
