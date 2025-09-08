@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="5dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="6dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            >
+
+            <LinearLayout
+                android:id="@+id/bookmark_item"
+                style="@style/BOOKMARK_ITEM_COLOR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingVertical="7dp"
+                android:paddingLeft="20dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                >
+
+                <TextView
+                    android:id="@+id/favText_word"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fab Item"
+                    android:layout_gravity="center|left"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/favText_translate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fab Item"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center|left"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginRight="17dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="15dp"
+                    >
+                    <ImageButton
+                        android:id="@+id/voice_text_fav"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/speaker_text_to_voice"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_marginTop="2dp"
+                        style="@style/ICON_TINT"
+                        />
+                    <ImageButton
+                        android:id="@+id/voice_text_fav_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/speaker_text_to_voice"
+                        android:background="?attr/selectableItemBackground"
+                        style="@style/ICON_TINT"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="2dp"
+                        />
+
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:src="@drawable/baseline_delete_24"
+                    android:background="?attr/selectableItemBackground"
+                    style="@style/ICON_TINT"
+                    android:layout_marginTop="3dp"
+                    />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

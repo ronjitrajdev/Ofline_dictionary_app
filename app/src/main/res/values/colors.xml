@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_gray">#D3D3D3</color>
+
+    <color name="search_text_color">#000000</color> <!-- Light Mode এ কালো লেখা -->
+    <color name="search_hint_color">#808080</color> <!-- Light Mode এ হালকা ধূসর Hint -->
+    <color name="selected_background">#2165ED</color>
+    <color name="nav_item_background">#FFFFFF</color>
+    <color name="button_text_color">#000000</color>
+    <color name="buttontint_color">#E4E1E1</color>
+</resources>

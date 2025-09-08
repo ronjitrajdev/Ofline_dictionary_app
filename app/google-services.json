@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "440152881011",
+    "project_id": "bangla-to-english-dictio-9fd43",
+    "storage_bucket": "bangla-to-english-dictio-9fd43.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440152881011:android:286f6812501ff1e89a7706",
+        "android_client_info": {
+          "package_name": "com.ronjit.banglaenglishdictionary"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5Zpx1Mp1_feMsawPogUoVlXA9QrWOUEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

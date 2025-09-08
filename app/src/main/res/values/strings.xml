@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bangla English Dictionary</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="ADMOB_APP_ID">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="INTERTITIAL_AD_UNIT_ID">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="BANER_AD_UNIT_ID">ca-app-pub-3940256099942544/9214589741</string>
+</resources>

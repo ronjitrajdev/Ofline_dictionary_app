@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/SCREEN"
+    >
+
+    <EditText
+        android:id="@+id/inputWord"
+        android:hint="Enter word"
+        android:textColorHint="@color/search_hint_color"
+        style="@style/SEARCH"
+        android:textColor="@color/search_text_color"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="15dp"
+        />
+
+    <EditText
+        android:id="@+id/inputNote"
+        android:hint="Enter note (optional)"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColorHint="@color/search_hint_color"
+        style="@style/SEARCH"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>
